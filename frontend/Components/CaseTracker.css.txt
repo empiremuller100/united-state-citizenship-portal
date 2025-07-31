@@ -1,0 +1,92 @@
+/* frontend/src/components/CaseTracker.css */
+.case-tracker {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.case-tracker h2 {
+  color: #1a365d;
+  margin-top: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.tracker-form {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.case-input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.track-btn {
+  background-color: #2b6cb0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.track-btn:hover {
+  background-color: #2c5282;
+}
+
+.track-btn:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
+
+.error-message {
+  background-color: #fed7d7;
+  color: #c53030;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.status-card {
+  border-left: 4px solid #4299e1;
+  background-color: #ebf8ff;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.status-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.status-indicator {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.status-indicator.pending {
+  background-color: #f6e05e;
+  color: #975a16;
+}
+
+.status-indicator.approved {
+  background-color: #68d391;
+  color: #276749;
+}
+
+.status-details p {
+  margin: 8px 0;
+  line-height: 1.5;
+}

@@ -1,0 +1,20 @@
+/* frontend/src/components/ComplianceBanner.css */
+.compliance-banner {
+  display: flex;
+  align-items: center;
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 12px 20px;
+  border-bottom: 2px solid #ffeeba;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.warning-icon {
+  margin-right: 12px;
+  font-size: 22px;
+}
+
+.warning-text {
+  line-height: 1.5;
+}
